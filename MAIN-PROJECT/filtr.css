@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-mos-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+	background-image: url(ananasy.jpg);
+	padding: 200px 450px;
+}
+
+
+.qwe{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	background-color: #FA8072;
+	width: 400px;
+	height: 500px;
+	border: 2px solid #000;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+	margin: 0px auto;
+}
+
+.check1{
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+.filtr1{
+	border: 1px solid #000;
+	height: 50px;
+	padding: 0px 15px;
+	font-size: 18px;
+	width: 300px;
+	position: relative;
+	left: 50px;
+	top: 10px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.check2{
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+}
+
+.filtr2{
+	border: 1px solid #000;
+	height: 50px;
+	padding: 0px 15px;
+	font-size: 18px;
+	width: 300px;
+	position: relative;
+	left: 50px;
+	top: 10px;
+	right: 0px;
+	bottom: 0px;
+}
+
+
+.check3{
+	font-size: 24px;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+}
+
+.filtr3{
+	border: 1px solid #000;
+	height: 50px;
+	padding: 0px 15px;
+	font-size: 18px;
+	width: 300px;
+	margin: 0px 0px 10px 0px;
+	position: relative;
+	left: 50px;
+	top: 10px;
+	right: 0px;
+	bottom: 0px;
+}
+
+
+
+
+.prim{
+	display: block;
+	font-size: 18px;
+	font-weight: bold;
+	border: 2px solid #000;
+	border-radius: 15px;
+	width: 300px;
+	height: 50px;
+	color: #000;
+	text-transform: uppercase;
+	position: relative;
+	left: 50px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+
+.prim:hover{
+	background-color: #333;
+	color: yellow;
+}

@@ -1,0 +1,166 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav, footer, header, aside{display: block;}
+
+html, body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-mos-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+
+
+body{
+	background-image:  url(koti_na_glavnoi2.png);
+}
+
+.shapka{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	word-spacing: 15px;
+	padding:  15px;
+}
+
+.vhod{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FA8072;
+	width: 150px;
+	max-width: 100%;
+	height:   75px;
+	border: 2px solid #000;
+	margin: 0 0 0 125px ;
+}
+
+.vhod:hover{
+	color: yellow;
+}
+
+.registraziya{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FA8072;
+	width: 150px;
+	height:   75px;
+	border: 2px solid #000;
+}
+
+.registraziya:hover{
+	color: yellow;
+}
+
+.block_row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+.block_column{
+
+}
+
+.blok1{
+	display: flex;
+	border: 2px solid #000;
+	background-color: #FA8072; 
+	padding: 15px;
+}	
+
+.blok1:hover{
+	color: yellow;
+}
+
+.blok2{
+	border: 2px solid #000;
+	background-color: #FA8072; 
+	padding: 15px;
+}
+
+.blok2:hover{
+	color: yellow;
+}
+
+.blok3{
+	border: 2px solid #000;
+	background-color: #FA8072; 
+	padding: 15px;
+}
+
+.blok3:hover{
+	color: yellow;
+}
+
+.blok4{
+	border: 2px solid #000;
+	background-color: #FA8072; 
+	padding: 15px;
+}
+
+.blok4:hover{
+	color: yellow;
+}
+
+.blok5{
+	border: 2px solid #000;
+	background-color: #FA8072; 
+	padding: 15px;
+}
+
+.blok5:hover{
+	color: yellow;
+}
+
+
+
+.filtr{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	background-color: #FA8072;
+	width: 150px;
+	height:   75px;
+	border: 2px solid #000;
+}
+
+.filtr:hover{
+	color: yellow;
+}
